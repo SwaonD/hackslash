@@ -8,6 +8,7 @@ using UnityEngine;
 // Component used to store multiple tags
 public class TagManager : MonoBehaviour
 {
+	[InfoBox("Use Tools.CompareTag() to include those tags", EInfoBoxType.Normal)]
 	[SerializeField, Tag] string[]				_tags;
 
 	[Header("Search")]
